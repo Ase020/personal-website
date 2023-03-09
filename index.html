@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Personal website</title>
+   </head>
+   <body>
+      <div class="header">
+         <!-- navbar -->
+         <nav>
+            <!-- logo -->
+            <h1>ase<span>Design.</span></h1>
+
+            <!-- links -->
+            <ul>
+               <li>
+                  <a href="https://asedesign.netlify.app/">home</a>
+               </li>
+               <li><a href="">about</a></li>
+               <li><a href="">portfolio</a></li>
+               <li><a href="">services</a></li>
+            </ul>
+         </nav>
+
+         <!-- text-body -->
+         <div class="text-body">
+            <h1>I'm, <span class="auto-input"></span></h1>
+            <p>
+               You can reach out to me if you need any help in building your own website <br />
+               or for you business
+            </p>
+
+            <a href="">Contact Me</a>
+
+            <a href="" class="btn">Download CV</a>
+         </div>
+
+         <!-- image -->
+         <img src="https://asedesign.netlify.app/static/media/profile.8f495e53a40c34ec1956.png" alt="img" />
+      </div>
+
+      <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+      <script>
+         const typed = new Typed(".auto-input", {
+            strings: ["Felix Nyalenda", "A Web Developer", "A UI Designer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            loop: true,
+         });
+      </script>
+   </body>
+</html>
